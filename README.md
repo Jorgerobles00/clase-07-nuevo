@@ -63,5 +63,11 @@ git switch main
 git merge features/branch #me traigo a main lo que tenia en features/ramas
 ```
 * fusion -> fast-forward -> git hace la fusion automaticamente
+* fusion --> con conflicto -->git no puede fusionar automaticamente, entonces nos va a pedir ayuda a nosotros
 
+## abortar la fusion
+
+```sh
+git merge --abort
+```
 
