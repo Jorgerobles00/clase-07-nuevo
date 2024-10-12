@@ -15,7 +15,7 @@ git status
 ## Git alias Alias...
 
 ```sh
-git confir --global alias.st "status --short"
+git config --global alias.st "status --short"
 git config --global alias.a "add"
 git config --global alias.c "commit -m"
 git config --global alias.l "log --oneline"
@@ -25,4 +25,11 @@ git config --global alias.l "log --oneline"
 
 ```sh
 git diff
-´´´
+```
+
+## ver el contenido de cada commit 
+``` sh
+git show <numero-hash>
+```
+
+
