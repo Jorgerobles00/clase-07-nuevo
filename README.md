@@ -62,6 +62,6 @@ git merge <rama-que-quiero-fusionar>
 git switch main
 git merge features/branch #me traigo a main lo que tenia en features/ramas
 ```
-* fusion -> fast-foward -> git hace la fusion automaticamente
+* fusion -> fast-forward -> git hace la fusion automaticamente
 
 
