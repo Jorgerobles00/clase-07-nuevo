@@ -18,7 +18,11 @@ git status
 git confir --global alias.st "status --short"
 git config --global alias.a "add"
 git config --global alias.c "commit -m"
-git config --global alias.l "log --oneline"^C
+git config --global alias.l "log --oneline"
 ```
  
- 
+## Ver las direrencias en el WD y el LR
+
+```sh
+git diff
+´´´
