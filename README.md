@@ -71,3 +71,11 @@ git merge features/branch #me traigo a main lo que tenia en features/ramas
 git merge --abort
 ```
 
+## eliminar una rama
+```sh
+git branch -d <nombre-rama> # si larama que estoy borrando ya fue fusionada me va a borrar la rama.
+git branch -D <nombre-rama> #confirmacion de borrado de una rama que todavia no ha sido fusionada en el repositorio
+git branch -d features/branch #ya estaba fusionada features/branch
+```
+
+
