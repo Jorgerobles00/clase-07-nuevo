@@ -54,5 +54,5 @@ git diff dev # ejemplo, comparo features/ramas con dev
 ## Ver las ramas locales y remotas
 ```sh
 git branch -a #Me muestra las ramas locales y remotas
-
+```
 
